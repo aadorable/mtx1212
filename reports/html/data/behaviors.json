@@ -1,0 +1,184 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "下单功能",
+    "children" : [ {
+      "name" : "下单成功 ",
+      "children" : [ {
+        "name" : "下单成功的测试用例",
+        "uid" : "9a373b539374a83b",
+        "parentUid" : "365262acc04c8c4d7e75349391119f68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727788081,
+          "stop" : 1606727788256,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "365262acc04c8c4d7e75349391119f68"
+    } ],
+    "uid" : "9267427a20a830dcfc2701378312df0c"
+  }, {
+    "name" : "支付功能",
+    "children" : [ {
+      "name" : "支付成功",
+      "children" : [ {
+        "name" : "支付成功的测试用例",
+        "uid" : "ad9206ebf66f508e",
+        "parentUid" : "1d74c36ffb03c6c3debeb87dd0d2cf2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727788585,
+          "stop" : 1606727789483,
+          "duration" : 898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d74c36ffb03c6c3debeb87dd0d2cf2c"
+    } ],
+    "uid" : "7795b5e4996878b6ac656bdeff66e25f"
+  }, {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "登录的参数：正向和逆向",
+      "children" : [ {
+        "name" : "登录的测试用例",
+        "uid" : "885d4ea16be5dbe6",
+        "parentUid" : "690fd60fb44c4872a579a50498e339d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727789491,
+          "stop" : 1606727789637,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'xueqing'", "'登录成功'", "123456" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "9cd540e97198f64b",
+        "parentUid" : "690fd60fb44c4872a579a50498e339d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727789643,
+          "stop" : 1606727789790,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'lwxd'", "'帐号不存在'", "123456" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "971f136250e186ba",
+        "parentUid" : "690fd60fb44c4872a579a50498e339d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727789795,
+          "stop" : 1606727789949,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'xueqing'", "'密码错误'", "5268345" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "56aeba19c154df70",
+        "parentUid" : "690fd60fb44c4872a579a50498e339d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727789958,
+          "stop" : 1606727790096,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'xueqing'", "'密码格式 6~18 个字符之间'", "1" ]
+      } ],
+      "uid" : "690fd60fb44c4872a579a50498e339d8"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "注册功能",
+    "children" : [ {
+      "name" : "注册成功",
+      "children" : [ {
+        "name" : "注册成功的测试用例",
+        "uid" : "7d54970a3df964d8",
+        "parentUid" : "23aa6eb2f75d96a3c2b0efff83d36b56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727790103,
+          "stop" : 1606727790291,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23aa6eb2f75d96a3c2b0efff83d36b56"
+    }, {
+      "name" : "注册失败",
+      "children" : [ {
+        "name" : "注册失败的测试用例",
+        "uid" : "1b7fe3e1c673a822",
+        "parentUid" : "01f2563fe6578f5c4d6b933fb8f9c6f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727790294,
+          "stop" : 1606727790431,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '中文', 'password': 123456, 'type': 'username', 'is_agree_agreement': 1, 'exp': '用户名格式由 字母数字下划线 2~18 个字符'}" ]
+      }, {
+        "name" : "注册失败的测试用例",
+        "uid" : "c29493c055a68a1e",
+        "parentUid" : "01f2563fe6578f5c4d6b933fb8f9c6f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727790436,
+          "stop" : 1606727790585,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '222222222222222222222222222222222222', 'password': 123456, 'type': 'username', 'is_agree_agreement': 1, 'exp': '用户名格式由 字母数字下划线 2~18 个字符'}" ]
+      }, {
+        "name" : "注册失败的测试用例",
+        "uid" : "909d4a91a20e901d",
+        "parentUid" : "01f2563fe6578f5c4d6b933fb8f9c6f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727790589,
+          "stop" : 1606727790728,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'lyuir', 'password': 1, 'type': 'username11', 'is_agree_agreement': 1, 'exp': '注册类型有误'}" ]
+      }, {
+        "name" : "注册失败的测试用例",
+        "uid" : "56f2d907676461aa",
+        "parentUid" : "01f2563fe6578f5c4d6b933fb8f9c6f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606727790732,
+          "stop" : 1606727790885,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'xueqing', 'password': 4567895, 'type': 'username', 'is_agree_agreement': 1, 'exp': '账号已存在'}" ]
+      } ],
+      "uid" : "01f2563fe6578f5c4d6b933fb8f9c6f5"
+    } ],
+    "uid" : "85ff1f938d503d997bc4540a25196a1f"
+  } ]
+}

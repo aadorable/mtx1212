@@ -1,0 +1,2 @@
+INFO     root:apiReg.py:19 开始发起注册请求，请求参数是：{'accounts': 'xueqing', 'pwd': 4567895, 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:apiReg.py:21 响应结果是：{'msg': '账号已存在', 'code': -10, 'data': ''}

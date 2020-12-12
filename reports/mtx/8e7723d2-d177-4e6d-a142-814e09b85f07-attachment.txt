@@ -1,0 +1,4 @@
+INFO     root:apiLogin.py:20 开始获取登录接口的URL...
+INFO     root:apiLogin.py:22 登录接口的URL：http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+INFO     root:apiLogin.py:31 开始发起登录请求，请求参数是：{'accounts': 'xueqing', 'pwd': 123456}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:apiLogin.py:33 响应结果是：{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}

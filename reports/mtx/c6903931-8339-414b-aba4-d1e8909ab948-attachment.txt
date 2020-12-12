@@ -1,0 +1,2 @@
+INFO     root:apiLogin.py:31 开始发起登录请求，请求参数是：{'accounts': 'lwxd', 'pwd': 123456}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:apiLogin.py:33 响应结果是：{'msg': '帐号不存在', 'code': -3, 'data': ''}

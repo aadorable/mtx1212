@@ -1,0 +1,2 @@
+INFO     root:apiReg.py:19 开始发起注册请求，请求参数是：{'accounts': 'lyuir', 'pwd': 1, 'type': 'username11', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:apiReg.py:21 响应结果是：{'msg': '注册类型有误', 'code': -1, 'data': ''}

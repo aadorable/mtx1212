@@ -1,0 +1,13 @@
+2020-11-30 17:16:30,093 INFO [root] [apiLogin.py(login:33)] -响应结果是：{'msg': '密码格式 6~18 个字符之间', 'code': -2, 'data': ''}
+2020-11-30 17:16:30,102 INFO [root] [apiReg.py(__init__:14)] -开始获取注册接口的URL...
+2020-11-30 17:16:30,102 INFO [root] [apiReg.py(__init__:16)] -注册接口的URL：http://121.42.15.146:9090/mtx/index.php?s=/index/user/reg.html
+2020-11-30 17:16:30,148 INFO [root] [apiReg.py(reg:19)] -开始发起注册请求，请求参数是：{'accounts': 'Roberta', 'pwd': '123456', 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 17:16:30,289 INFO [root] [apiReg.py(reg:21)] -响应结果是：{'msg': '注册成功', 'code': 0, 'data': {'msg': '添加成功', 'code': 0, 'data': {'body_html': '', 'user_id': '2330'}}}
+2020-11-30 17:16:30,294 INFO [root] [apiReg.py(reg:19)] -开始发起注册请求，请求参数是：{'accounts': '中文', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 17:16:30,430 INFO [root] [apiReg.py(reg:21)] -响应结果是：{'msg': '用户名格式由 字母数字下划线 2~18 个字符', 'code': -2, 'data': ''}
+2020-11-30 17:16:30,436 INFO [root] [apiReg.py(reg:19)] -开始发起注册请求，请求参数是：{'accounts': '222222222222222222222222222222222222', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 17:16:30,585 INFO [root] [apiReg.py(reg:21)] -响应结果是：{'msg': '用户名格式由 字母数字下划线 2~18 个字符', 'code': -2, 'data': ''}
+2020-11-30 17:16:30,590 INFO [root] [apiReg.py(reg:19)] -开始发起注册请求，请求参数是：{'accounts': 'lyuir', 'pwd': 1, 'type': 'username11', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 17:16:30,727 INFO [root] [apiReg.py(reg:21)] -响应结果是：{'msg': '注册类型有误', 'code': -1, 'data': ''}
+2020-11-30 17:16:30,731 INFO [root] [apiReg.py(reg:19)] -开始发起注册请求，请求参数是：{'accounts': 'xueqing', 'pwd': 4567895, 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 17:16:30,885 INFO [root] [apiReg.py(reg:21)] -响应结果是：{'msg': '账号已存在', 'code': -10, 'data': ''}

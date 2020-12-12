@@ -1,0 +1,111 @@
+[ {
+  "uid" : "56aeba19c154df70",
+  "name" : "登录的测试用例",
+  "time" : {
+    "start" : 1606727789958,
+    "stop" : 1606727790096,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a373b539374a83b",
+  "name" : "下单成功的测试用例",
+  "time" : {
+    "start" : 1606727788081,
+    "stop" : 1606727788256,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c29493c055a68a1e",
+  "name" : "注册失败的测试用例",
+  "time" : {
+    "start" : 1606727790436,
+    "stop" : 1606727790585,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9cd540e97198f64b",
+  "name" : "登录的测试用例",
+  "time" : {
+    "start" : 1606727789643,
+    "stop" : 1606727789790,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7d54970a3df964d8",
+  "name" : "注册成功的测试用例",
+  "time" : {
+    "start" : 1606727790103,
+    "stop" : 1606727790291,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ad9206ebf66f508e",
+  "name" : "支付成功的测试用例",
+  "time" : {
+    "start" : 1606727788585,
+    "stop" : 1606727789483,
+    "duration" : 898
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "56f2d907676461aa",
+  "name" : "注册失败的测试用例",
+  "time" : {
+    "start" : 1606727790732,
+    "stop" : 1606727790885,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "909d4a91a20e901d",
+  "name" : "注册失败的测试用例",
+  "time" : {
+    "start" : 1606727790589,
+    "stop" : 1606727790728,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1b7fe3e1c673a822",
+  "name" : "注册失败的测试用例",
+  "time" : {
+    "start" : 1606727790294,
+    "stop" : 1606727790431,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "971f136250e186ba",
+  "name" : "登录的测试用例",
+  "time" : {
+    "start" : 1606727789795,
+    "stop" : 1606727789949,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "885d4ea16be5dbe6",
+  "name" : "登录的测试用例",
+  "time" : {
+    "start" : 1606727789491,
+    "stop" : 1606727789637,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

@@ -1,0 +1,2 @@
+INFO     root:apiReg.py:19 开始发起注册请求，请求参数是：{'accounts': '222222222222222222222222222222222222', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是：{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:apiReg.py:21 响应结果是：{'msg': '用户名格式由 字母数字下划线 2~18 个字符', 'code': -2, 'data': ''}
