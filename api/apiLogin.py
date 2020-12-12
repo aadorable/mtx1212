@@ -24,7 +24,7 @@ class ApiLogin():
     def login(self, session, data):
         '''
         对登录接口进行自动化测试
-        :data: 请求参数（post,get) 场景：1.参数化 业务层传递  2.验证这个功能，直接写死就可以了
+        :data: 请求参数（post,get)   场景：1.参数化 业务层传递  2.验证这个功能，直接写死就可以了
         :return: 
         '''
         # 发起请求
